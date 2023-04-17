@@ -1,0 +1,41 @@
+html,body {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    font-family: 'Crimson Text', serif;
+font-family: 'DynaPuff', cursive;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color:black;
+}
+
+.style h1 {
+    font-family: 'DynaPuff', cursive;
+    width: 100%;
+    text-align: center;
+}
+
+.style p {
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+}
+
